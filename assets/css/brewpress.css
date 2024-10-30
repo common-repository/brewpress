@@ -1,0 +1,363 @@
+.brewpress {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+.brewpress label {
+    display: inline-block;
+    margin-bottom: .3rem;
+    font-weight: 500;
+}
+.brewpress .cmb-repeatable-group > .cmb-row > .cmb-th,
+.brewpress .cmb-repeatable-group > .cmb-row > .cmb-th .cmb-group-name {
+    width: 100%;
+    display: block;
+}
+.brewpress .cmb-th h2.cmb-group-name {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    padding: 15px 0 0 0;
+    display: inline-block;
+}
+.brewpress .cmb-type-group .cmb-th {
+    padding: 0;
+}
+
+.brewpress .cmb-type-group .cmb-row:not(:last-of-type) {
+    border-bottom: none;
+}
+.brewpress .cmb-type-group .cmb-row.cmb-repeatable-grouping {
+    margin: 10px 0px 10px;
+    position: relative;
+    border: 1px solid #e9e9e9;
+    padding: 0 20px;
+    border-radius: 4px;
+}
+.brewpress button.dashicons-before.cmb-remove-group-row,
+.brewpress .cmb-repeatable-grouping .cmbhandle {
+    display: none;
+    width: 0px;
+    height: 0px;
+    background: none;
+    outline: none;
+    border: none;
+}
+.brewpress .cmb-repeatable-grouping .cmb-group-title {
+    background: #333;
+    padding-left: 50px;
+    margin: 0 -20px;
+    color: #fff;
+    padding: 8px 0 8px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 4px 4px 0 0
+}
+.brewpress .card-header {
+    background: #333;
+    color: #fff;
+}
+
+.brewpress .inside.cmb-td.cmb-nested.cmb-field-list {
+    padding: 15px 0 0;
+}
+.brewpress .cmb2-metabox-description, .brewpress .cmb2-wrap .cmb-row.cmb-repeat .cmb2-metabox-description {
+    padding-top: 5px;
+    font-size: 13px;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: 0;
+    margin-bottom: 0;
+    color: #999;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+}
+.brewpress .cmb-add-row {
+    margin: 5px 0 10px;
+    display: block;
+}
+.brewpress .cmb-row.cmb-remove-field-row {
+    padding: 0;
+    margin: 0px 0 15px 0;
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+    width: 100%;
+}
+.brewpress .cmb-remove-row button.cmb-remove-group-row,
+.brewpress .cmb-add-row button.cmb-add-group-row, 
+.brewpress input.button-primary,
+.brewpress .cmb-shift-rows {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 2px 10px;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 3px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.brewpress input.button-primary {
+    font-size: 16px;
+    padding: 8px 20px;
+}
+.brewpress .cmb-remove-row button.cmb-remove-group-row:hover,
+.brewpress .cmb-add-row button.cmb-add-group-row:hover{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.brewpress .cmb-remove-row button.cmb-remove-group-row {
+    color: #dc3545;
+    border-color: #fff;
+    background: #fff;
+}
+.brewpress .cmb-remove-row button.cmb-remove-group-row:hover {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.brewpress .cmb-add-row button.cmb-add-group-row {
+    color: #28a745;
+    border-color: #28a745;
+    background: #fff;
+    margin: 5px 0 15px 0px;
+}
+.brewpress .cmb-add-row button.cmb-add-group-row:hover {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.brewpress .cmb-shift-rows {
+    color: #212529;
+    background-color: #fff;
+    border-color: #212529;
+    margin-right: 5px;
+}
+.brewpress .cmb-shift-rows:hover {
+    color: #fff;
+    background-color: #007bff;
+}
+.brewpress .cmb-remove-group-row {
+    float: right
+}
+
+.brewpress form .button-primary {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #212529;
+    font-weight: 600;
+}
+.brewpress .card.group {
+    margin-bottom: 20px;
+}
+.brewpress .select2.select2-container {
+    min-width: 220px;
+}
+.brewpress .select2-selection {
+    height: auto;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: .375rem .75rem;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: inherit;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 6px;
+}
+.edit-btns.btn-wrap {
+    margin: 0 0 10px;
+}
+
+
+.brewpress .search-filter {
+    margin: 0 0 30px 0;
+}
+.brewpress .batch-table .name .title {
+    display: block;
+    width: 100%;
+    color: #888;
+}
+.brewpress .batch-table .name .style {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    color: #888;
+    line-height: 16px;
+    margin-top: -3px;
+}
+.brewpress .batch-table .no-search {
+    text-align: right;
+}
+
+.brewpress .brewing > .row {
+    margin-bottom: 20px;
+}
+.brewpress .brewing .manual-controls .elements,
+.brewpress .brewing .manual-controls .pumps {
+    display: inline-block;
+    margin-right: 20px
+}
+.brewpress .brewing .manual-controls .btn-wrap {
+    display: inline-block;
+}
+.brewpress .brewing .manual-controls .btn-wrap span {
+    display: block;
+    font-size: 12px;
+}
+.brewpress .brewing .manual-mode {
+    cursor: pointer;
+}
+.brewpress .brewing .manual-mode .alert {
+    margin: 10px 0 0px;
+    padding: 4px 15px;
+    font-size: 14px;
+}
+
+
+.brewpress .brewing #main-timer > div {
+    display: inline-block;
+    width: 70px;
+}
+.brewpress .brewing #main-timer > div > span {
+    display: block;
+}
+.brewpress .brewing #main-timer > div > span.digits {
+    font-size: 30px;
+}
+.brewpress .brewing #main-timer > div > span.text {
+    color: #aaa;
+    font-weight: 700
+}
+
+.brewpress .brewing .step {
+    background: transparent;
+    border-color: transparent;
+}
+.brewpress .brewing .step h3 {
+    margin: 0;
+}
+.brewpress .brewing .step h3 span {
+    margin-left: 10px;
+}
+.brewpress .brewing .step h4 {
+    margin: 0;
+}
+
+/*  step colors and styling */
+.brewpress .brewing .step.heating {
+    box-shadow: inset 3px 0 0 #dc3545;
+}
+.brewpress .brewing .step.running {
+    box-shadow: inset 3px 0 0 #28a745;
+}
+.brewpress .brewing .step.paused {
+    box-shadow: inset 3px 0 0 #ffc107;
+}
+.brewpress .brewing .step.finished {
+    box-shadow: inset 3px 0 0 #17a2b8;
+}
+.brewpress .brewing .step.heating h3 {
+    color: #dc3545;
+}
+.brewpress .brewing .step.running h3 {
+    color: #28a745;
+}
+.brewpress .brewing .step.paused h3 {
+    color: #ffc107;
+}
+.brewpress .brewing .step.finished h3 {
+    color: #17a2b8;
+}
+
+
+
+.brewpress .upper h3 {
+    margin: 0;
+}
+.brewpress .upper p.style {
+    border-bottom: 1px solid #eee;
+    margin: 0 0 15px;
+    padding-bottom: 10px
+}
+
+
+.brewpress .ui_box {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px
+}
+.brewpress .ui_box i {
+    font-size: 60px;
+}
+.brewpress .ui_box i.fa-beer {
+    margin-right: -16px;
+}
+.brewpress .ui_box h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #aaa;
+    font-weight: 100;
+}
+.brewpress .ui_box .stat {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px
+}
+.brewpress .dashboard .ui_box.batches .stat {
+    color: #e2712b;
+}
+.brewpress .dashboard .ui_box.total .stat {
+    color: #17a2b8;
+}
+.brewpress .dashboard .ui_box.longest .stat {
+    color: #dc3545;
+}
+.brewpress .dashboard .ui_box.shortest .stat {
+    color: #28a745;
+}
+
+.brewpress .row.info dd span {
+    display: block;
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .brewpress {
+        padding: 20px;
+    }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .brewpress {
+        padding: 10px;
+    }
+    .brewpress .cmb2-metabox-description, 
+    .brewpress .cmb2-wrap .cmb-row.cmb-repeat .cmb2-metabox-description {
+        padding-bottom: 5px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+  
+}

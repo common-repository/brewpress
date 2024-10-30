@@ -1,0 +1,638 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BrewPress\n"
+"POT-Creation-Date: 2018-08-02 15:47+1000\n"
+"PO-Revision-Date: 2018-08-02 15:47+1000\n"
+"Last-Translator: \n"
+"Language-Team: BrewPress\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translate_nooped_plural;number_format_i18n;date_i18n;esc_html__;esc_html__;"
+"esc_html_x;esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: includes/lib\n"
+
+#: brewpress.php:62 brewpress.php:70
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: frontend/batch/class-batch-edit.php:102
+msgid "Update Batch"
+msgstr ""
+
+#: frontend/batch/class-batch-edit.php:130 frontend/pages/brewing.php:112
+#, php-format
+msgid "Program was started at %1s on %2s"
+msgstr ""
+
+#: frontend/batch/class-batch-edit.php:138 frontend/pages/brewing.php:120
+#, php-format
+msgid "Program finished at %1s on %2s"
+msgstr ""
+
+#: frontend/batch/class-batch-edit.php:145
+msgid ""
+"<strong>Warning!</strong> Updating this batch will remove all program data "
+"and all temperature logs!"
+msgstr ""
+
+#: frontend/batch/class-batch-edit.php:172
+msgid "View"
+msgstr ""
+
+#: frontend/batch/class-batch-edit.php:175
+#: frontend/batch/class-batch-view-all.php:162
+msgid "Brew"
+msgstr ""
+
+#: frontend/batch/class-batch-edit.php:207
+#: frontend/batch/class-batch-new.php:121 frontend/pages/settings.php:384
+msgid "Security error. Please contact support."
+msgstr ""
+
+#: frontend/batch/class-batch-edit.php:250
+#: frontend/batch/class-batch-new.php:83
+#, php-format
+msgid "There was an error in the submission: %s"
+msgstr ""
+
+#: frontend/batch/class-batch-edit.php:255
+msgid " Batch created successfully"
+msgstr ""
+
+#: frontend/batch/class-batch-edit.php:259
+msgid " Batch updated successfully"
+msgstr ""
+
+#: frontend/batch/class-batch-form.php:54
+#: frontend/batch/class-batch-view-all.php:116 frontend/pages/settings.php:227
+#: frontend/pages/settings.php:333
+msgid "Name"
+msgstr ""
+
+#: frontend/batch/class-batch-form.php:64
+msgid "Style"
+msgstr ""
+
+#: frontend/batch/class-batch-form.php:75
+#: frontend/batch/class-batch-view-all.php:119
+msgid "Volume"
+msgstr ""
+
+#: frontend/batch/class-batch-form.php:103
+msgid "Step {#}"
+msgstr ""
+
+#: frontend/batch/class-batch-form.php:104
+msgid "Add Step"
+msgstr ""
+
+#: frontend/batch/class-batch-form.php:105
+msgid "Remove Step"
+msgstr ""
+
+#: frontend/batch/class-batch-form.php:111
+msgid "Temperature"
+msgstr ""
+
+#: frontend/batch/class-batch-form.php:114
+msgid "The target temperature to hold this step at."
+msgstr ""
+
+#: frontend/batch/class-batch-form.php:125
+msgid "Time"
+msgstr ""
+
+#: frontend/batch/class-batch-form.php:128
+msgid "The time in minutes to hold this step at."
+msgstr ""
+
+#: frontend/batch/class-batch-form.php:138
+msgid "Element"
+msgstr ""
+
+#: frontend/batch/class-batch-form.php:141
+msgid "The element to control."
+msgstr ""
+
+#: frontend/batch/class-batch-new.php:92
+msgid "Create Batch"
+msgstr ""
+
+#: frontend/batch/class-batch-output.php:55 frontend/pages/brewing.php:203
+msgid "Program"
+msgstr ""
+
+#: frontend/batch/class-batch-output.php:69
+#: frontend/batch/class-batch-output.php:131
+#: frontend/batch/class-batch-output.php:146
+msgid "Step "
+msgstr ""
+
+#: frontend/batch/class-batch-output.php:71 frontend/pages/brewing.php:245
+msgid "Minutes"
+msgstr ""
+
+#: frontend/batch/class-batch-output.php:111
+#: frontend/batch/class-batch-output.php:141
+#: frontend/batch/class-batch-output.php:156
+#: frontend/batch/class-batch-output.php:201
+#: frontend/batch/class-batch-output.php:202
+msgid "H:i:s"
+msgstr ""
+
+#: frontend/batch/class-batch-view-all.php:67
+msgid "Start typing to filter batches"
+msgstr ""
+
+#: frontend/batch/class-batch-view-all.php:90
+msgid "No batches"
+msgstr ""
+
+#: frontend/batch/class-batch-view-all.php:117
+msgid "Created"
+msgstr ""
+
+#: frontend/batch/class-batch-view-all.php:118
+msgid "Brewed"
+msgstr ""
+
+#: frontend/batch/class-batch-view-all.php:156
+msgid "Edit batch"
+msgstr ""
+
+#: frontend/batch/class-batch-view-all.php:158
+msgid "Duplicate batch"
+msgstr ""
+
+#: frontend/batch/class-batch-view-all.php:160
+msgid "Delete batch"
+msgstr ""
+
+#: frontend/brewing/class-brewing.php:85
+msgid "Running"
+msgstr ""
+
+#: frontend/brewing/class-brewing.php:86
+msgid "Paused"
+msgstr ""
+
+#: frontend/brewing/class-brewing.php:87 frontend/pages/brewing.php:256
+msgid "Finished"
+msgstr ""
+
+#: frontend/brewing/class-brewing.php:88
+msgid "Heating"
+msgstr ""
+
+#: frontend/brewing/class-brewing.php:104
+msgid "Missing batch id"
+msgstr ""
+
+#: frontend/class-frontend.php:76 frontend/pages/brewing.php:358
+msgid "Step"
+msgstr ""
+
+#: frontend/class-frontend.php:77 frontend/pages/brewing.php:256
+msgid "Not Started"
+msgstr ""
+
+#: frontend/class-frontend.php:78
+msgid "Manual Mode"
+msgstr ""
+
+#: frontend/class-frontend.php:79
+msgid ""
+"The element is in Manual Mode for this step. Click here to go back to "
+"Program Mode."
+msgstr ""
+
+#: frontend/pages/brewing.php:83
+msgid "View Chart"
+msgstr ""
+
+#: frontend/pages/brewing.php:153 frontend/pages/brewing.php:170
+msgid "No name set"
+msgstr ""
+
+#: frontend/pages/brewing.php:210
+msgid ""
+"Program has been run for this batch. Starting the program again will delete "
+"previous program and all temp logs."
+msgstr ""
+
+#: frontend/pages/brewing.php:213
+msgid "Start"
+msgstr ""
+
+#: frontend/pages/brewing.php:215
+msgid "Pause"
+msgstr ""
+
+#: frontend/pages/brewing.php:217
+msgid "Reset"
+msgstr ""
+
+#: frontend/pages/brewing.php:233
+msgid "Total Elapsed Time"
+msgstr ""
+
+#: frontend/pages/brewing.php:241
+msgid "Hours"
+msgstr ""
+
+#: frontend/pages/brewing.php:249
+msgid "Seconds"
+msgstr ""
+
+#: frontend/pages/brewing.php:332
+msgid "Steps"
+msgstr ""
+
+#: frontend/pages/brewing.php:336
+msgid "Are you sure you want to restart the current step."
+msgstr ""
+
+#: frontend/pages/brewing.php:338
+msgid "Are you sure you want to move to the next step."
+msgstr ""
+
+#: frontend/pages/brewing.php:360
+msgid "Target Temp:"
+msgstr ""
+
+#: frontend/pages/brewing.php:361
+msgid "Minutes:"
+msgstr ""
+
+#: frontend/pages/dashboard.php:71
+msgid "Batches"
+msgstr ""
+
+#: frontend/pages/dashboard.php:79
+msgid "Total Time"
+msgstr ""
+
+#: frontend/pages/dashboard.php:87
+msgid "Quickest"
+msgstr ""
+
+#: frontend/pages/dashboard.php:95
+msgid "Longest"
+msgstr ""
+
+#: frontend/pages/settings.php:84
+#, php-format
+msgid "There was an error: %s"
+msgstr ""
+
+#: frontend/pages/settings.php:99
+msgid "Update Settings"
+msgstr ""
+
+#: frontend/pages/settings.php:129
+msgid "Temperature Unit"
+msgstr ""
+
+#: frontend/pages/settings.php:134
+msgid "Celcius"
+msgstr ""
+
+#: frontend/pages/settings.php:135
+msgid "Fahrenheit"
+msgstr ""
+
+#: frontend/pages/settings.php:143
+msgid "Volume Unit"
+msgstr ""
+
+#: frontend/pages/settings.php:148
+msgid "Metric (litres)"
+msgstr ""
+
+#: frontend/pages/settings.php:149
+msgid "Imperial (gallons)"
+msgstr ""
+
+#: frontend/pages/settings.php:157
+msgid "Heartbeat"
+msgstr ""
+
+#: frontend/pages/settings.php:162
+msgid "The time in seconds of the heartbeat. Default is 2."
+msgstr ""
+
+#: frontend/pages/settings.php:169
+msgid "Log Temps"
+msgstr ""
+
+#: frontend/pages/settings.php:174
+msgid ""
+"When a program is started, the time in seconds of temperature logging. "
+"Default is 30."
+msgstr ""
+
+#: frontend/pages/settings.php:181
+msgid "Debug Mode"
+msgstr ""
+
+#: frontend/pages/settings.php:184
+msgid "Raw program data will be printed to the bottom of the Brewing page."
+msgstr ""
+
+#: frontend/pages/settings.php:187 frontend/pages/settings.php:202
+msgid "Off"
+msgstr ""
+
+#: frontend/pages/settings.php:188 frontend/pages/settings.php:203
+msgid "On"
+msgstr ""
+
+#: frontend/pages/settings.php:196
+msgid "Testing Mode"
+msgstr ""
+
+#: frontend/pages/settings.php:199
+msgid ""
+"Brewpress will setup dummy sensors for when you're not connected to a "
+"RaspberryPi."
+msgstr ""
+
+#: frontend/pages/settings.php:213
+msgid "Heating Elements"
+msgstr ""
+
+#: frontend/pages/settings.php:218
+msgid "Element {#}"
+msgstr ""
+
+#: frontend/pages/settings.php:219
+msgid "Add New Element"
+msgstr ""
+
+#: frontend/pages/settings.php:220
+msgid "Remove Element"
+msgstr ""
+
+#: frontend/pages/settings.php:230
+msgid "Give this element a unique name."
+msgstr ""
+
+#: frontend/pages/settings.php:241 frontend/pages/settings.php:347
+msgid "Output GPIO"
+msgstr ""
+
+#: frontend/pages/settings.php:244
+msgid "The GPIO for this element (not the physical pin number)."
+msgstr ""
+
+#: frontend/pages/settings.php:252
+msgid "Sensor"
+msgstr ""
+
+#: frontend/pages/settings.php:255
+msgid "The sensor that is used to control the element."
+msgstr ""
+
+#: frontend/pages/settings.php:268
+msgid "Mode"
+msgstr ""
+
+#: frontend/pages/settings.php:271
+msgid "The mode that this element will run on."
+msgstr ""
+
+#: frontend/pages/settings.php:274
+msgid "Hysteresis"
+msgstr ""
+
+#: frontend/pages/settings.php:285
+msgid "Turn On"
+msgstr ""
+
+#: frontend/pages/settings.php:286
+msgid "Switch element on when temperature is x degrees from set point."
+msgstr ""
+
+#: frontend/pages/settings.php:302
+msgid "Turn Off"
+msgstr ""
+
+#: frontend/pages/settings.php:304
+msgid "Switch element off when temperature is x degrees from set point."
+msgstr ""
+
+#: frontend/pages/settings.php:320
+msgid "Pumps"
+msgstr ""
+
+#: frontend/pages/settings.php:325
+msgid "Pump {#}"
+msgstr ""
+
+#: frontend/pages/settings.php:326
+msgid "Add New Pump"
+msgstr ""
+
+#: frontend/pages/settings.php:327
+msgid "Remove Pump"
+msgstr ""
+
+#: frontend/pages/settings.php:349
+msgid "The GPIO for this pump (not the physical pin number)."
+msgstr ""
+
+#: includes/class-menus.php:24 includes/class-menus.php:25
+msgid "BrewPress"
+msgstr ""
+
+#: includes/class-post-types.php:37 includes/class-post-types.php:43
+#: includes/class-post-types.php:49
+#, php-format
+msgid "%2$s"
+msgstr ""
+
+#: includes/class-post-types.php:38
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: includes/class-post-types.php:39
+#, php-format
+msgid "New %1s"
+msgstr ""
+
+#: includes/class-post-types.php:40
+#, php-format
+msgid "Add New %1$s"
+msgstr ""
+
+#: includes/class-post-types.php:41
+#, php-format
+msgid "Edit %1$s"
+msgstr ""
+
+#: includes/class-post-types.php:42
+#, php-format
+msgid "New %1$s"
+msgstr ""
+
+#: includes/class-post-types.php:44
+#, php-format
+msgid "View %1$s"
+msgstr ""
+
+#: includes/class-post-types.php:45
+#, php-format
+msgid "Search %2$s"
+msgstr ""
+
+#: includes/class-post-types.php:46
+#, php-format
+msgid "No %2$s found"
+msgstr ""
+
+#: includes/class-post-types.php:47
+#, php-format
+msgid "No %2$s found in Trash"
+msgstr ""
+
+#: includes/class-post-types.php:50
+#, php-format
+msgid "Filter %2$s list"
+msgstr ""
+
+#: includes/class-post-types.php:51
+#, php-format
+msgid "%2$s list navigation"
+msgstr ""
+
+#: includes/class-post-types.php:52
+#, php-format
+msgid "%2$s list"
+msgstr ""
+
+#: includes/install.php:29
+msgid ""
+"Welcome to BrewPress! Please run the Setup Wizard to help you configure "
+"WordPress."
+msgstr ""
+
+#: includes/install.php:30
+msgid "Start the Wizard"
+msgstr ""
+
+#: includes/install.php:30
+msgid "Cancel"
+msgstr ""
+
+#: includes/install.php:76
+msgid "BrewPress Setup Wizard"
+msgstr ""
+
+#: includes/install.php:79
+msgid ""
+"This is a simple wizard to help with the setup of your WordPress "
+"installation."
+msgstr ""
+
+#: includes/install.php:80
+msgid ""
+"If you are using a fresh install of WordPress and only using it for the "
+"purpose of running BrewPress, we recommend you run each of the options below."
+msgstr ""
+
+#: includes/install.php:89
+msgid "Create Required Pages"
+msgstr ""
+
+#: includes/install.php:94
+msgid "Set Dashboard as the home page (only works if the above is checked)"
+msgstr ""
+
+#: includes/install.php:99
+msgid "Create Navigation Menu"
+msgstr ""
+
+#: includes/install.php:104
+msgid "Delete WordPress default post"
+msgstr ""
+
+#: includes/install.php:109
+msgid "Set permalinks to 'pretty permalinks'"
+msgstr ""
+
+#: includes/install.php:114
+msgid "Copy the Server-sent Events file to the root folder"
+msgstr ""
+
+#: includes/install.php:120
+msgid "Run Wizard"
+msgstr ""
+
+#: includes/install.php:149
+msgid "Brewing"
+msgstr ""
+
+#: includes/install.php:154
+msgid "View Batches"
+msgstr ""
+
+#: includes/install.php:160
+msgid "New Batch"
+msgstr ""
+
+#: includes/install.php:166
+msgid "Edit Batch"
+msgstr ""
+
+#: includes/install.php:171
+msgid "Settings"
+msgstr ""
+
+#: includes/install.php:177
+msgid "Dashboard"
+msgstr ""
+
+#: includes/install.php:314
+msgid "BrewPress Install Wizard"
+msgstr ""
+
+#: includes/install.php:317
+msgid "Awesome, the wizard has been run!"
+msgstr ""
+
+#: includes/install.php:318
+msgid "Start Brewing"
+msgstr ""
+
+#: includes/install.php:321
+msgid "Required pages were not setup."
+msgstr ""
+
+#: includes/install.php:324
+msgid "Dashboard was not set as the home page."
+msgstr ""
+
+#: includes/install.php:327
+msgid "Menu was not set up."
+msgstr ""
+
+#: includes/install.php:330
+msgid "Dummy data was not removed."
+msgstr ""
+
+#: includes/install.php:333
+msgid "Permalinks were not set."
+msgstr ""
+
+#: includes/install.php:336
+msgid "Sse file was not copied to root directory."
+msgstr ""
